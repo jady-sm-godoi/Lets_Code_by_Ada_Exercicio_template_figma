@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.back-image {
+  background-image: url("./assets/image 10.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 50px;
+}
+.back-image header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 82px;
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 20px;
+  padding: 0 50px;
+}
+.back-image header img:first-child {
+  width: auto;
+  height: 21px;
+}
+.back-image header nav {
+  display: flex;
+  justify-content: space-around;
+  width: 488px;
+}
+.back-image header nav a {
+  text-decoration: none;
+  font-family: "Gilroy-Medium";
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+.back-image header img:last-child {
+  width: 46px;
+  height: 46px;
+}/*# sourceMappingURL=style.css.map */
