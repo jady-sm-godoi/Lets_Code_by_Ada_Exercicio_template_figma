@@ -38,4 +38,51 @@ body {
 .back-image header img:last-child {
   width: 46px;
   height: 46px;
+}
+.back-image .hero-content {
+  text-align: left;
+  color: #FFFFFF;
+  font-family: "Gilroy-Medium";
+  width: 575px;
+  height: 388px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 70px 0;
+}
+.back-image .hero-content p:first-child {
+  font-size: 20px;
+  line-height: 23px;
+  margin: 10px 0;
+}
+.back-image .hero-content h1 {
+  font-family: "Gilroy-Bold";
+  font-size: 80px;
+  line-height: 90px;
+  /* or 112% */
+  text-transform: uppercase;
+  margin: 0;
+}
+.back-image .hero-content p:nth-child(3) {
+  font-size: 30px;
+  line-height: 35px;
+  margin: 10px 0;
+}
+.back-image .hero-content #imdb {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin: 10px 0;
+}
+.back-image .hero-content #imdb img {
+  width: 55px;
+  height: auto;
+}
+.back-image .hero-content #imdb p:last-child {
+  font-size: 28px;
+  line-height: 33px;
+  margin: 0;
+}
+.back-image .hero-content button {
+  width: 160px;
 }/*# sourceMappingURL=style.css.map */
