@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: black;
 }
 
 .back-image {
@@ -7,6 +8,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 40px 50px;
+  height: 992px;
 }
 .back-image header {
   display: flex;
@@ -85,4 +87,22 @@ body {
 }
 .back-image .hero-content button {
   width: 160px;
+}
+.back-image .popular-collections {
+  width: 100%;
+  height: auto;
+}
+.back-image .popular-collections h2 {
+  font-family: "Gilroy-Bold";
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.back-image .popular-collections div {
+  display: flex;
+  gap: 20px;
+}
+.back-image .popular-collections div img {
+  width: 100%;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */
