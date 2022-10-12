@@ -6,18 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="menu.css">
   <title>HBO template</title>
 </head>
 <body >
   <div class="back-image">
     <header>
       <img src="./assets/Logo.png" alt="HBO-Max-logo">
-      <nav>
-        <a href="#">Movies</a>
-        <a href="#">TV shows</a>
-        <a href="#">Animations</a>
-        <a href="#">Upgrade</a>
+      <nav class="navBar">
+        <input type="checkbox" id="menu-toggle" />
+        <div class="menu-hamburguer">
+            <span></span>
+        </div>
+        <div class="lista">
+            <ul>
+                <li><a href="#">Movie</a></li>
+                <li><a href="#">TV shows</a></li>
+                <li><a href="#">Animations</a></li>
+                <li><a href="#">Upgrade</a></li>
+                <li>
+                  <img src="./assets/unsplash_X6Uj51n5CE8.png" alt="perfil">
+                  <a href="#">Perfil</a>
+                </li>
+            </ul>
+        </div>
       </nav>
       <img src="./assets/unsplash_X6Uj51n5CE8.png" alt="perfil">
     </header>
@@ -48,38 +62,41 @@
         <img src="./assets/6.png" alt="tick tick Boom! - film">
       </div>
     </section>
+    <section class="new-releases">
+      <h2>New Releases</h2>
+      <div>
+        <figure>
+          <img src="./assets/Moonfall.png" alt="Moonfall - poster">
+          <figcaption>
+            <h3>Moonfall</h3>
+            <p>Action | Adventure | Sci-Fi</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="./assets/King_Richard.png" alt="King Richard - poster">
+          <figcaption>
+            <h3>King Richard</h3>
+            <p>Sports | Drama</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="./assets/Archive 81.png" alt="Archive 81 - poster">
+          <figcaption>
+            <h3>Archive 81</h3>
+            <p>Action | Adventure | Sci-Fi</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="./assets/Tick_tick_boom.png" alt="Tick Tick Boom! - poster">
+          <figcaption>
+            <h3 >Tick Tick Boom</h3>
+            <p >Music | Drama</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
   </div>
-  <section>
-    <h2>New Releases</h2>
-    <figure>
-      <figcaption>
-        <h3>Moonfall</h3>
-        <p>Action | Adventure | Sci-Fi</p>
-        <img src="./assets/Moonfall.png" alt="Moonfall - poster">
-      </figcaption>
-    </figure>
-    <figure>
-      <figcaption>
-        <h3>King Richard</h3>
-        <p>Sports | Drama</p>
-        <img src="./assets/King_Richard.png" alt="King Richard - poster">
-      </figcaption>
-    </figure>
-    <figure>
-      <figcaption>
-        <h3>Archive 81</h3>
-        <p>Action | Adventure | Sci-Fi</p>
-        <img src="./assets/Archive 81.png" alt="Archive 81 - poster">
-      </figcaption>
-    </figure>
-    <figure>
-      <figcaption>
-        <h3>Tick Tick Boom</h3>
-        <p>Music | Drama</p>
-        <img src="./assets/Tick_tick_boom.png" alt="Tick Tick Boom! - poster">
-      </figcaption>
-    </figure>
-  </section>
+  
 </body>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
