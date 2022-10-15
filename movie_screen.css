@@ -1,0 +1,158 @@
+html {
+  min-height: 100%;
+}
+html body {
+  margin: 0;
+  background-color: black;
+}
+
+.back-image {
+  background-image: linear-gradient(to bottom, transparent, rgb(0, 0, 0)), url("./assets/22.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 50px;
+  height: 992px;
+}
+.back-image header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 82px;
+  padding: 0 50px;
+}
+.back-image header img:first-child {
+  width: auto;
+  height: 21px;
+}
+.back-image header img:last-child {
+  width: 46px;
+  height: 46px;
+}
+.back-image header img:last-child:hover {
+  scale: 1.1;
+}
+@media (max-width: 820px) {
+  .back-image header img:last-child {
+    display: none;
+  }
+}
+.back-image .hero-content {
+  text-align: left;
+  color: #FFFFFF;
+  font-family: "Gilroy-Medium";
+  font-size: 22px;
+  line-height: 36px;
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 70px 0;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+@media (max-width: 820px) {
+  .back-image .hero-content {
+    width: 100%;
+  }
+}
+.back-image .hero-content p:first-child {
+  font-size: 20px;
+  line-height: 23px;
+  margin: 10px 0;
+}
+.back-image .hero-content h1 {
+  font-family: "Gilroy-Bold";
+  font-size: 5rem;
+  line-height: 90px;
+  text-transform: uppercase;
+  margin: 0;
+}
+@media (max-width: 500px) {
+  .back-image .hero-content h1 {
+    font-size: 3.5rem;
+  }
+}
+.back-image .hero-content p:nth-child(3) {
+  font-size: 30px;
+  line-height: 35px;
+  margin: 10px 0;
+}
+.back-image .hero-content #imdb {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin: 10px 0;
+}
+.back-image .hero-content #imdb img {
+  width: 55px;
+  height: auto;
+}
+.back-image .hero-content #imdb p:last-child {
+  font-size: 28px;
+  line-height: 33px;
+  margin: 0;
+}
+.back-image .hero-content .control {
+  display: flex;
+  gap: 20px;
+}
+.back-image .hero-content .control button:first-child {
+  width: 160px;
+  background: linear-gradient(132.02deg, rgba(255, 255, 255, 0.2) -2.16%, rgba(0, 0, 0, 0.052) 151.47%);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: 0;
+}
+.back-image .team {
+  width: 100%;
+  height: auto;
+  margin: 50px 0;
+}
+.back-image .team h2 {
+  font-family: "Gilroy-Bold";
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.back-image .team div {
+  display: flex;
+  gap: 50px;
+}
+@media (max-width: 820px) {
+  .back-image .team div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.back-image .team div figure {
+  position: relative;
+  width: 151.35px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.back-image .team div figure:hover {
+  scale: 1.1;
+}
+.back-image .team div figure img {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.back-image .team div figure figcaption {
+  color: #FFFFFF;
+  line-height: 36px;
+  font-family: "Gilroy-Medium";
+  text-align: center;
+}
+.back-image .team div figure figcaption p {
+  font-size: 22px;
+}
+.back-image .team div figure figcaption span {
+  font-size: 18px;
+  opacity: 0.5;
+}/*# sourceMappingURL=movie_screen.css.map */
